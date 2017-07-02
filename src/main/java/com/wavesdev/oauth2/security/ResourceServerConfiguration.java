@@ -16,7 +16,7 @@ import org.springframework.security.web.util.matcher.RequestMatcher;
 @EnableResourceServer
 public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
 
-	private static final String RESOURCE_ID = "SpringSecurityOAuth2";
+	private static final String RESOURCE_ID = "SpringSecurityOAuth2-hibernate";
 	
 	@Override
 	public void configure(ResourceServerSecurityConfigurer resources) {
